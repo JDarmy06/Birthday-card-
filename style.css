@@ -701,6 +701,7 @@ body {
         z-index: -1;
         animation: topHat 4s 7s forwards ease;
     }
+    
     .box__letter .letter__border {
         position: absolute;
         width: 90vw;
