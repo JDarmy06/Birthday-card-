@@ -701,7 +701,32 @@ body {
         z-index: -1;
         animation: topHat 4s 7s forwards ease;
     }
+    
+.letter__border .letter .content__letter {
+    flex-direction: column;
+    overflow-y: auto;
+}
 
+.content__letter .left,
+.content__letter .right {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    border: none;
+}
+
+.content__letter .right .text__letter {
+    margin-top: 0;
+    padding: 10px;
+    font-size: 1rem;
+    word-break: break-word;
+}
+
+.box__letter .letter__border {
+    height: auto;
+    max-height: 90vh;
+    overflow-y: auto;
+}
     .box__letter .letter__border {
         position: absolute;
         width: 90vw;
